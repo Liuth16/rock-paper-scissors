@@ -1,7 +1,4 @@
-// let userChoice = prompt("Make your choice: ");
-// userChoice = userChoice.toLowerCase();
 
-// console.log(userChoice);
 
 let humanScore = 0
 let computerScore = 0
@@ -24,8 +21,6 @@ function getHumanChoice(){
 }
 
 function playRound(humanChoice = getHumanChoice(), computerChoice = getComputerChoice()){
-    console.log(humanChoice)
-    console.log(computerChoice)
 
     if (humanChoice === computerChoice){
         console.log(`Both sides selected ${humanChoice}. This is a tie!`)
